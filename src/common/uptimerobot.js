@@ -27,7 +27,7 @@ export async function GetMonitors(apikey, days) {
     custom_uptime_ranges: ranges.join('-'),
   };
 
-  const response = await axios.post('https://worker-restless-meadow-58b1.yours-truly8126.workers.dev/v2/getMonitors', postdata, {
+  const response = await axios.post('https://worker-restless-meadow-58b1.yours-truly8126.workers.dev', postdata, {
     timeout: 10000
   });
   if (response.data.stat !== 'ok') {
