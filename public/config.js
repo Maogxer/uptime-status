@@ -4,7 +4,7 @@ window.Config = {
   // 显示标题
   SiteName: '站点监测',
 
-  ApiDomain: 'https://worker-restless-meadow-58b1.yours-truly8126.workers.dev/',
+  ApiDomain: 'worker-restless-meadow-58b1.yours-truly8126.workers.dev',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
