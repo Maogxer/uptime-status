@@ -21,11 +21,11 @@ window.Config = {
   ShowLink: true,
 
   // 导航栏菜单
- // Navi: [
-//    {
-//      text: '主页',
-//      url: 'https://tjys.tk'
-//    },
+  Navi: [
+    {
+      text: '主页',
+      url: 'https://uptime-status.hlsq.cn'
+    },
 //    {
 //      text: '博客',
 //      url: 'https://blog.qikaile.tk'
@@ -34,5 +34,5 @@ window.Config = {
  //     text: 'GitHub',
 //      url: 'https://github.com/qikaile/uptime-status'
 //    },
-//  ],
+  ],
 };
