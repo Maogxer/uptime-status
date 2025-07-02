@@ -1,7 +1,16 @@
 {
   "files": [],
+  
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts", // 确保包含所有 .d.ts 文件
+    "src/**/*.tsx",
+    "src/**/*.vue"    // 确保明确包含了 .vue 文件
+  ],
+
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+
 }
